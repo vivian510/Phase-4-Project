@@ -47,8 +47,3 @@ Hyperparameter Tuning was performed using GridsearchCV to find optimal parameter
 
 
 
-# Hyperparameter Tuning
-Hyperparameter Tuning was performed using GridsearchCV to find optimal parameters.Performed cross validation with 5 folds to ensure model generelized well on unseen data.
-- Feature engineering with Tfidvectorizer with different n_gram range.
-- Removed stop words to reduce noise and improve performance.
-- Logistic Regression with class_weight ='balanced' was used to handle the class imbalance and improve performance.
