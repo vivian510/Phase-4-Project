@@ -1,5 +1,11 @@
 # APPLE TWITTER SENTIMENT ANALYSIS 
 
+# Background
+>Sentiment analysis helps in identifying and extracting subjective information from a text.Companies use Sentiment analysis to analyse customer feedback and  make dnd make data driven decision.
+>This project uses tweets about Apple and Google products rated by humans for sentiments to train and evaluate the NLP model.
+
+# Business Problem 
+>Apple and Google company is interested in understanding the customer sentiments so as to improve their products and enhance customer satisfaction.By building an NLP model that accurately predicts sentiments of the tweets can help the company to make informed decision which can improve their performance hence contributing to business growth. 
 
 # Business and Data Understanding
 >The dataset was sourced from CrowdFlower via data.world,the link for Kaggle is  https://www.kaggle.com/datasets/slythe/apple-twitter-sentiment-crowdflower
