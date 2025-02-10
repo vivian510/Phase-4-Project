@@ -30,6 +30,12 @@
 >Logistic Regression which is simple and interpretable and effective for text classification task,I used it in Binary classification which then expanded to multiclass classification.
 > Decision tree was performed and ensemble methods like Bagging to improve the prediction accuracy though it did not help improve the accuracy.it helped reduce overfitting.
 > XGBoost was used to capture complex patterns but did not improve the model over Logistic Regression.
+>
+# REsults
+## Binary classification
+Performed Binary classification using Logistic Regression,the accuracy score was 81%
+## Multiclass classification
+The best score was accuracy with 72% using Logistic Regression with Gridsearch. 
 
 # Hyperparameter Tuning
 Hyperparameter Tuning was performed using GridsearchCV to find optimal parameters.Performed cross validation with 5 folds to ensure model generelized well on unseen data.
