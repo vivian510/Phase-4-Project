@@ -31,6 +31,14 @@
 > Decision tree was performed and ensemble methods like Bagging to improve the prediction accuracy though it did not help improve the accuracy.it helped reduce overfitting.
 > XGBoost was used to capture complex patterns but did not improve the model over Logistic Regression.
 
+# Evaluation
+>The models were evaluated with Accuracy,Precision,Recall and F1 score.
+> The best model was Logistic Regression with Gridsearch,it had  Accuracy of 72% ,precision of 68% and Bagged RandomForestClassifier with Accuracy 71% and precision 70%.
+> In the Validation approach,I used a Train_test split to validate the model performance,ensuring the results are well generelised with new data.The dataset was split into 70% training data and 30% test data.
+
+
+
+
 # Hyperparameter Tuning
 Hyperparameter Tuning was performed using GridsearchCV to find optimal parameters.Performed cross validation with 5 folds to ensure model generelized well on unseen data.
 - Feature engineering with Tfidvectorizer with different n_gram range.
