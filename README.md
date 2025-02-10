@@ -64,6 +64,12 @@ Hyperparameter Tuning was performed using GridsearchCV to find optimal parameter
 > The best model was Logistic Regression with Gridsearch,it had  Accuracy of 72% ,precision of 68% and Bagged RandomForestClassifier with Accuracy 71% and precision 70%.
 > In the Validation approach,I used a Train_test split to validate the model performance,ensuring the results are well generelised with new data.The dataset was split into 70% training data and 30% test data.
 
+model	Accuracy	Precision	Recall	F1
+0	LogisticRegression	72	68	63	64
+1	XGBoost	             70	66	57	59
+2	Bagging Ensemble(DT)	69	64	57	59
+3	Bagging Ensemble(rf)	71	70	58	60
+
 # Achievement of objective
 > Insights gained can help business better understand customer sentiment and make Data driven decision to enhance products and service.
 
