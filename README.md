@@ -34,37 +34,42 @@
 ![image](https://github.com/user-attachments/assets/f1656cde-71e2-48d8-8801-1b6add6db3ac)
 
 > Neutral(3) had the highest sentiment,followed by Negative sentiment(1),then Positive(5) and the non_relevant which had the smallest.
-> Filtered out the non_relevant class as it was not relevant to the Apple and Google products so it was bringing  noise to the data hence reducing the modeling performance 
+> Filtered out the non_relevant class as it was not relevant to the Apple and Google products so it was bringing  noise to the data hence reducing the modeling performance
 
-# Modelling
->Logistic Regression which is simple and interpretable and effective for text classification task,I used it in Binary classification which then expanded to multiclass classification.
-> Decision tree was performed and ensemble methods like Bagging to improve the prediction accuracy though it did not help improve the accuracy.it helped reduce overfitting.
-> XGBoost was used to capture complex patterns but did not improve the model over Logistic Regression.
->
-# RESULTS
-## Binary classification
+## Binary classification 
 Performed Binary classification using Logistic Regression,the accuracy score was 81%
 
-![image](https://github.com/user-attachments/assets/a17f8228-37ac-4e8a-b922-0e2a8023e98f)
-
-
+![image](https://github.com/user-attachments/assets/ee9c4dc4-4a12-47f2-ad8b-2ac91cb5e1a5)
 
 ## Multiclass classification
 The best score was accuracy with 72% using Logistic Regression with Gridsearch. 
-![image](https://github.com/user-attachments/assets/a3961f30-fd2a-460b-811f-a70a101e05b4)
 
+![image](https://github.com/user-attachments/assets/f87f0209-45a5-4785-84f6-9d15d835dff2)
+
+# Modelling
+>Logistic Regression which is simple and interpretable and effective for text classification task,I used it in Binary classification which then expanded to multiclass classification.
+
+> Decision tree and Random Forest was performed and ensemble methods like Bagging to improve the prediction accuracy though it did not help improve the accuracy.it helped reduce overfitting.
+
+# Bagged Decision tree Classifier
+![image](https://github.com/user-attachments/assets/d1fb9e84-4a22-47b1-b013-0e3fd7d5f4b4)
+Had an accuracy of 69% and Precision of 64%.
+
+# Bagged RandomForestclassifier
+> ![image](https://github.com/user-attachments/assets/c3e53fc9-43dd-4d19-93df-dcc886d69297)
+> Had an Accuracy 0f 71% and Precision of 69%.
+
+## XGBoost
+> XGBoost was used to capture complex patterns but did not improve the model over Logistic Regression.
+
+![image](https://github.com/user-attachments/assets/e8f25502-c2f4-4b16-be42-f3010f4b8716)
+Had an Accuracy of 68% and Precision of 63%.
 
 # Hyperparameter Tuning
-Hyperparameter Tuning was performed using GridsearchCV to find optimal parameters.Performed cross validation with 5 folds to ensure model generelized well on unseen data.
+- Hyperparameter Tuning was performed using GridsearchCV to find optimal parameters.Performed cross validation with 5 folds to ensure model generelized well on unseen data.
 - Feature engineering with Tfidvectorizer with different n_gram range.
 - Removed stop words to reduce noise and improve performance.
 - Logistic Regression with class_weight ='balanced' was used to handle the class imbalance and improve performance.
-
-model	              Accuracy	Precision	Recall	F1
-0	LogisticRegression	71	 68	61	63
-1	Bagging Ensemble(rf)	71	69	57	59
-2	Bagging Ensemble(DT)	69	64	58	59
-3	XGBoost	              68	63	55	56
 
 # Evaluation
 >The models were evaluated with Accuracy,Precision,Recall and F1 score.
@@ -73,7 +78,11 @@ model	              Accuracy	Precision	Recall	F1
 
 > In the Validation approach,I used a Train_test split to validate the model performance,ensuring the results are well generelised with new data.The dataset was split into 70% training data and 30% test data.
 
-
+model	              Accuracy	Precision	Recall	F1
+0	LogisticRegression	71	 68	61	63
+1	Bagging Ensemble(rf)	71	69	57	59
+2	Bagging Ensemble(DT)	69	64	58	59
+3	XGBoost	              68	63	55	56
 
 # Achievement of objective
 > Insights gained can help business better understand customer sentiment and make Data driven decision to enhance products and service.
