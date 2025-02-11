@@ -1,5 +1,7 @@
 # APPLE TWITTER SENTIMENT ANALYSIS 
 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reuters.com%2Ftechnology%2Fmusk-says-apple-mostly-stopped-advertising-twitter-2022-11-28%2F&psig=AOvVaw16at6wpCLH2re48NqZM1gr&ust=1739390236328000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICt--CzvIsDFQAAAAAdAAAAABAE
+
 # Background
 >Sentiment analysis helps in identifying and extracting subjective information from a text.Companies use Sentiment analysis to analyse customer feedback and  make dnd make data driven decision.
 >This project uses tweets about Apple and Google products rated by humans for sentiments to train and evaluate the NLP model.
