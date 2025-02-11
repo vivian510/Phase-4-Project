@@ -26,7 +26,7 @@
 
 # Preprocessing
 - Text preprocessing to remove URLs,Hashtags,mentions,special characters which helped to reduce noise and focus on the actual content of the tweet and converting text to lowercase to reduce vocabulary size and improve word frequency analysis.
-- Stopwords were removed and Lemmatization together was applied to reduce word to their base form.
+- Stopwords were removed and Lemmatization was applied to reduce word to their base form.
 
 # Sentiment Analysis
 ## Distribution of different sentiments in the texts
