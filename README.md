@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/07729134-2698-4a4c-8acb-a0a39c92da28)# APPLE TWITTER SENTIMENT ANALYSIS 
+# APPLE TWITTER SENTIMENT ANALYSIS 
 
 ![image](https://github.com/user-attachments/assets/69055492-074f-476d-b995-37ef3a82de20)
 
