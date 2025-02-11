@@ -78,7 +78,7 @@ model	Accuracy	Precision	Recall	F1
 > There is still room for improvement, particularly in handling the positive class (5).
 
 # Recommendations
--  By experimenting with advanced feature engineering, 
+- Experimenting with advanced feature engineering, 
 - Experiment further with different other  models
 - Implement further ensemble methods
 - Perform extensive Hyper parameter Tuning
