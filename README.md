@@ -43,13 +43,14 @@
 ## Binary classification
 Performed Binary classification using Logistic Regression,the accuracy score was 81%
 
-![image](https://github.com/user-attachments/assets/49c8c930-299d-4491-b022-51a6fc4909eb)
+![image](https://github.com/user-attachments/assets/a17f8228-37ac-4e8a-b922-0e2a8023e98f)
+
 
 
 ## Multiclass classification
 The best score was accuracy with 72% using Logistic Regression with Gridsearch. 
+![image](https://github.com/user-attachments/assets/a3961f30-fd2a-460b-811f-a70a101e05b4)
 
-![image](https://github.com/user-attachments/assets/df1c3432-0ea4-402a-aa4e-87f7029f83c5)
 
 # Hyperparameter Tuning
 Hyperparameter Tuning was performed using GridsearchCV to find optimal parameters.Performed cross validation with 5 folds to ensure model generelized well on unseen data.
@@ -57,18 +58,20 @@ Hyperparameter Tuning was performed using GridsearchCV to find optimal parameter
 - Removed stop words to reduce noise and improve performance.
 - Logistic Regression with class_weight ='balanced' was used to handle the class imbalance and improve performance.
 
-
+model	              Accuracy	Precision	Recall	F1
+0	LogisticRegression	71	 68	61	63
+1	Bagging Ensemble(rf)	71	69	57	59
+2	Bagging Ensemble(DT)	69	64	58	59
+3	XGBoost	              68	63	55	56
 
 # Evaluation
 >The models were evaluated with Accuracy,Precision,Recall and F1 score.
-> The best model was Logistic Regression with Gridsearch,it had  Accuracy of 72% ,precision of 68% and Bagged RandomForestClassifier with Accuracy 71% and precision 70%.
+>Both Logistic Regression with grid search and Bagged Random Forest performed the best with Accuracy of 71%.
+>The Logistic Regression with gridsearch  achieved an accuracy of 0.713 and precision of 0.677 while Bagged Random Forest with accuracy of 0.708 and precision of 0.685
+
 > In the Validation approach,I used a Train_test split to validate the model performance,ensuring the results are well generelised with new data.The dataset was split into 70% training data and 30% test data.
 
-model	Accuracy	Precision	Recall	F1
-0	LogisticRegression	72	68	63	64
-1	XGBoost	             70	66	57	59
-2	Bagging Ensemble(DT)	69	64	57	59
-3	Bagging Ensemble(rf)	71	70	58	60
+
 
 # Achievement of objective
 > Insights gained can help business better understand customer sentiment and make Data driven decision to enhance products and service.
