@@ -1,4 +1,4 @@
-# APPLE TWITTER SENTIMENT ANALYSIS 
+![image](https://github.com/user-attachments/assets/07729134-2698-4a4c-8acb-a0a39c92da28)# APPLE TWITTER SENTIMENT ANALYSIS 
 
 ![image](https://github.com/user-attachments/assets/69055492-074f-476d-b995-37ef3a82de20)
 
@@ -79,14 +79,15 @@ model	              Accuracy	Precision	Recall	F1
 > Insights gained can help business better understand customer sentiment and make Data driven decision to enhance products and service.
 
 # Conclusions
->The Logistic Regression performed best after grid search and  achieved an accuracy of 72% and precision of 68% 
+> Both Logistic Regression with grid search and Bagged Random Forest performed the best with Accuracy of 71%.
+> The Logistic Regression with gridsearch  achieved an accuracy of 0.713 and precision of 0.677 while Bagged Random Forest with accuracy of 0.708 and precision of 0.685.
 > There is still room for improvement, particularly in handling the positive class (5).
 
 # Recommendations
+By doing the following,the model performance will improve:
 - Experimenting with advanced feature engineering, 
-- Experiment further with different other  models
+- Experiment further with different other  models
 - Implement further ensemble methods
 - Perform extensive Hyper parameter Tuning
-
 
 
